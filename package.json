@@ -1,0 +1,26 @@
+{
+  "name": "grantcodes-bot",
+  "version": "0.0.1",
+  "description": "A little telegram bot to make my life easier",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "telegraf": "^3.38.0",
+    "telegraf-inline-menu": "^4.0.1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "telegram",
+    "bot",
+    "chatbot"
+  ],
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
